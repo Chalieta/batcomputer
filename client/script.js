@@ -77,7 +77,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv); // Displaying bot's loading (...) animation
 
   // Fetch data from server (bot's answer)
-  const response = await fetch("http://localhost:3000", {
+  const response = await fetch("https://batcomputer.onrender.com", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
